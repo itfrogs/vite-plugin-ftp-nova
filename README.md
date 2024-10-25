@@ -1,16 +1,16 @@
-# vite-plugin-ftp
-a simple useful vite ftp plugin, based on [ftp-deploy](https://github.com/simonh1000/ftp-deploy), upload your dist file after vite build.
+# vite-plugin-ftp-nova
+a simple useful vite ftp plugin, based on [ftp-deploy](https://github.com/itfrogs/vite-plugin-ftp-nova), upload your dist file after vite build.
 
 # install
 ```
-> npm i vite-plugin-ftp --save-dev
+> npm i vite-plugin-ftp-nova --save-dev
 ```
 
 # usage
 
 ```js
 // vite.config.ts
-import vitePluginFtp from 'vite-plugin-ftp'
+import vitePluginFtp from 'vite-plugin-ftp-nova'
 
 export default {
   plugins: [

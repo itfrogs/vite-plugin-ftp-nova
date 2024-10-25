@@ -20,7 +20,7 @@ export function vitePluginFtp(userConfig: ftpOptions = {}): Plugin {
         process.exit(1);
     }
     return {
-        name: 'vite-plugin-ftp',
+        name: 'vite-plugin-ftp-nova',
         apply: 'build',
         enforce: 'post',
         configResolved(config: ResolvedConfig) {

@@ -1,6 +1,6 @@
 {
-  "name": "vite-plugin-ftp",
-  "version": "0.0.8",
+  "name": "vite-plugin-ftp-nova",
+  "version": "1.0.0",
   "description": "a simple useful vite ftp plugin",
   "main": "dist/index.js",
   "scripts": {
@@ -10,10 +10,10 @@
   "files": [
     "src"
   ],
-  "homepage": "https://github.com/JianGuoPaPa/vite-plugin-ftp",
+  "homepage": "https://github.com/itfrogs/vite-plugin-ftp-nova",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JianGuoPaPa/vite-plugin-ftp"
+    "url": "git+https://github.com/itfrogs/vite-plugin-ftp-nova"
   },
   "keywords": [
     "vite",
@@ -22,7 +22,7 @@
     "ftp",
     "deploy"
   ],
-  "author": "jianguopapa (https://github.com/jianguopapa)",
+  "author": "ITFrogs (https://github.com/itfrogs/)",
   "license": "ISC",
   "tsup": {
     "entry": [
@@ -38,15 +38,15 @@
     ]
   },
   "dependencies": {
-    "chalk": "^5.1.2",
-    "ftp-deploy": "^2.4.3",
-    "ora": "^6.1.2",
-    "typescript": "^4.8.4",
-    "vite": "^2.5.10"
+    "chalk": "^5.3.0",
+    "ftp-deploy": "^2.4.7",
+    "ora": "^8.1.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
   },
   "devDependencies": {
-    "vue": "^3.2.4",
-    "@types/node": "^18.11.9",
-    "tsup": "^6.3.0"
+    "vue": "^3.5.12",
+    "@types/node": "^22.8.0",
+    "tsup": "^8.3.4"
   }
 }
